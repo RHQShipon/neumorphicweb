@@ -1,0 +1,30 @@
+:root{
+    --marginval: 3%;
+    --marginwidget: -15px;
+}
+
+body {
+    text-align: center;
+}
+
+.container{
+    margin-left: var(--marginval);
+    margin-right: var(--marginval);
+}
+
+.profile{
+    position: relative;
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+}
+
+.covidwidget{
+    margin-left: var(--marginwidget);
+    margin-right: var(--marginwidget);
+    border-color: white;
+}
